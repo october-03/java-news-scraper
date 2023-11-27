@@ -12,6 +12,8 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
+    implementation("org.jsoup:jsoup:1.16.2")
+    implementation("org.apache.poi:poi-ooxml:5.2.5")
 }
 
 tasks.test {
@@ -20,6 +22,10 @@ tasks.test {
 
 tasks.withType<Jar> {
     manifest {
-        attributes["Main-Class"] = "com.newsscraper.main.NewsScraper"
+        attributes["Main-Class"] = "com.newsscraper.NewsScraper"
     }
+
+    from(configurations.runtimeClasspath.get().map { if (it.isDirectory) it else zipTree(it) })
+
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }
