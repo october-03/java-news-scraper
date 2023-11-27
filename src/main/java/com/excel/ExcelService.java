@@ -4,6 +4,7 @@ import com.dto.NewsDto;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import java.io.File;
 import java.io.FileOutputStream;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -27,11 +28,16 @@ public class ExcelService {
       }
 
       try {
+        File directory = new File(filePath);
+        if (!directory.exists()){
+          directory.mkdirs();
+        }
+
         FileOutputStream fileOutputStream = new FileOutputStream(filePath + "/" + fileName);
         workbook.write(fileOutputStream);
         fileOutputStream.close();
       } catch (Exception e) {
-        System.out.println("에러가 발생했습니다.");
+        System.out.println("에러가 발생했습니다. createExcel");
         System.out.println("Exception: " + e.getMessage());
       }
     }

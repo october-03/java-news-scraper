@@ -10,18 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01680b5f-40fb-4405-aae4-ca4a83af6203" name="변경" comment="엑셀 작성 개발">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/java_news_scraper_main_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crawler/CrawlingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dto/NewsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/excel/ExcelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/newsscraper/NewsScraper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/newsscraper/main/NewsScraper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crawler/CrawlingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/CrawlingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/excel/ExcelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/excel/ExcelService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +87,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.java-news-scraper [build]">
+  <component name="RunManager" selected="Application.com.newsscraper.NewsScraper">
     <configuration name="NewsScraper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.newsscraper.main.NewsScraper" />
       <module name="java-news-scraper.main" />
@@ -147,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.java-news-scraper [build]" />
         <item itemvalue="Application.com.newsscraper.NewsScraper" />
+        <item itemvalue="Gradle.java-news-scraper [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701066221249</updated>
       <workItem from="1701066222866" duration="5445000" />
-      <workItem from="1701071742531" duration="8151000" />
+      <workItem from="1701071742531" duration="8965000" />
     </task>
     <task id="LOCAL-00001" summary="빌드 설정">
       <option name="closed" value="true" />
@@ -171,11 +162,30 @@
       <option name="project" value="LOCAL" />
       <updated>1701069122042</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="엑셀 작성 개발">
+      <option name="closed" value="true" />
+      <created>1701079946130</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701079946130</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="빌드 설정" />

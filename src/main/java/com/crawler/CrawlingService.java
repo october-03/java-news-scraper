@@ -58,7 +58,7 @@ public class CrawlingService {
   }
 
   private static Boolean isToday(Element Date) {
-    if(Date.text().contains("시간 전")) {
+    if(Date.text().contains("시간 전") || Date.text().contains("분 전")) {
       return true;
     };
 
