@@ -38,15 +38,19 @@ public class CrawlingService {
       Elements newsList = doc.select("ul.list_news > li a.news_tit");
       Elements dates = doc.select("ul.list_news > li span.info");
 
-      for(int i = 0; i < dates.size(); i++) {
-        if(isToday(dates.get(i))) {
-          Element news = newsList.get(i);
-          NewsDto result = new NewsDto(news.text(), news.attr("href"));
+      Elements filterDate = new Elements();
 
-          newsData.add(result);
-        } else {
-          break;
+      for (Element date : dates) {
+        if (isToday(date)) {
+          filterDate.add(date);
         }
+      }
+
+      for(int i = 0; i < filterDate.size(); i++) {
+        Element news = newsList.get(i);
+        NewsDto result = new NewsDto(news.text(), news.attr("href"));
+
+        newsData.add(result);
       }
 
       return newsData;

@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01680b5f-40fb-4405-aae4-ca4a83af6203" name="변경" comment="엑셀 작성 개발">
+    <list default="true" id="01680b5f-40fb-4405-aae4-ca4a83af6203" name="변경" comment="엑셀 작성 로직 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/crawler/CrawlingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crawler/CrawlingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/excel/ExcelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/excel/ExcelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/newsscraper/NewsScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/newsscraper/NewsScraper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701066221249</updated>
       <workItem from="1701066222866" duration="5445000" />
-      <workItem from="1701071742531" duration="8965000" />
+      <workItem from="1701071742531" duration="10524000" />
     </task>
     <task id="LOCAL-00001" summary="빌드 설정">
       <option name="closed" value="true" />
@@ -170,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701079946130</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="엑셀 작성 로직 수정">
+      <option name="closed" value="true" />
+      <created>1701080771395</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701080771395</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +199,7 @@
     <MESSAGE value="빌드 설정" />
     <MESSAGE value="뉴스 크롤링 개발" />
     <MESSAGE value="엑셀 작성 개발" />
-    <option name="LAST_COMMIT_MESSAGE" value="엑셀 작성 개발" />
+    <MESSAGE value="엑셀 작성 로직 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="엑셀 작성 로직 수정" />
   </component>
 </project>
